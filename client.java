@@ -1,5 +1,5 @@
-package serverClient;
-
+//package serverClient;
+package JavaClientServerApp;
 import java.io.*;
 import java.net.*;
 
@@ -12,6 +12,7 @@ public class client{
 		Socket cSock = null;
 		try{
 			cSock = new Socket("127.0.0.1",3600);// connect to the server
+                        System.out.println("connected to the server");
 		}
 		catch (IOException e){
 			System.out.println("unknown host exception");

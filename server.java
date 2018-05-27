@@ -1,4 +1,5 @@
-package serverClient;
+//package serverClient;
+package JavaClientServerApp;
 import java.net.*;
 import java.io.*;
 
@@ -33,6 +34,7 @@ public class server{
 			while(true){
 				try{
 					line = in.readLine();
+                                        System.out.println("Trying to read I/P from the client");
 					out.print(line);
 				
 				}
