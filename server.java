@@ -1,4 +1,3 @@
-//package serverClient;
 package JavaClientServerApp;
 import java.net.*;
 import java.io.*;
